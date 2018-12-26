@@ -1,0 +1,7 @@
+body {
+    text-align: center;
+}
+
+a:visited {
+    color: #02b3e4; /* Udacity's website button color ;P */
+}
