@@ -1,20 +1,19 @@
-# Classic Arcade Game Clone Project
+# Udacity Frogger with Dinamic Difficulty
 
 ## Table of Contents
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+- [How to Run](#howtorun)
+- [Differences](#differences)
 
-## Instructions
+## How To Run <a name="#howtorun"/>
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Download the folder and open the index.html and you're good to go!
+You can read this on the game's page, but:
+Use the arrow keys or WASD and get to the other side! Each time you do it, it gets harder! Each time you get hit, it gets easier!
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
-
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Differences
+ 
+So, what have I done differently? My games has:
+- 4 columns of enemies and another order of tiles;
+- Enemies speeds are multiplied by a winRate, so every time you win, they can accelerate even higher, and every time you get hit, that number decreases until it hits default;
+- You can play with WASD!
